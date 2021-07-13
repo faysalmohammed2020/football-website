@@ -148,3 +148,63 @@ nav {
     border: 3px solid aqua;
     transform: scale(1) rotate(360deg);
 }
+/*==========Card Section Completed===========*/
+/*=========Bottom Section Started===========*/
+.bottom-section{
+    margin-bottom: 158px;
+}
+.bottom-img{
+    margin-right: 80px;
+}
+ #bottom-h1{
+     color: black;
+     font-size: 48px;
+     line-height: 60px;
+ }
+ #bottom-p{
+     font-size: 16px;
+     line-height: 28px;
+     font-weight: 400;
+     margin-bottom: 24px;
+     color: #6C6C6C;
+ }
+ 
+ 
+/*=========Bottom Section Completed===========*/
+/* ===========Footer Section Started========== */
+.footer-section{
+    text-align: center;
+}
+.footer-section img{
+    width: 484px;
+    height: 110px;
+    margin-right: 150px;
+}
+.social-icon{
+    font-size: 20px;
+}
+.fa-instagram{
+    color: white;
+    background-color: #969BAB;
+    border-radius: 50px;
+    border: 3px solid #969BAB;
+}
+.fa-dribbble{
+    color: white;
+    background-color: #969BAB;
+    border-radius: 50px;
+    border: 3px solid #969BAB;
+}
+.fa-twitter{
+    color: white;
+    background-color: #969BAB;
+    border-radius: 50px;
+    border: 3px solid #969BAB;
+}
+.fa-youtube{
+    color: white;
+    background-color: #969BAB;
+    border-radius: 50px;
+    border: 3px solid #969BAB;
+}
+/* =======Footer Completed========= */
