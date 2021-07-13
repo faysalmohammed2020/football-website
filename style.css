@@ -3,21 +3,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
 
 /* =========Common Styles====== */
-body{
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-.header{
+.header {
     background-color: #2D25A0;
     transition: background-color 5s;
 }
-.header:hover{
+
+.header:hover {
     background-color: aquamarine;
 }
+
 /* ====== Navigation Style Start ========== */
-nav a{
+nav a {
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
@@ -25,68 +27,124 @@ nav a{
     margin-right: 36px;
     line-height: 24px;
 }
-nav{
+
+nav {
     margin-left: 156px;
     padding-top: 42px;
     display: flex;
     justify-content: space-between;
-    
+
 }
-.login-button a{
+
+.login-button a {
     background-color: #E02C6D;
-    padding: 10px 24px ;
+    padding: 10px 24px;
     text-align: center;
     color: white;
 }
- .fa-sign-in-alt{
+
+.fa-sign-in-alt {
     color: #ffff;
     font-size: 16px;
-    
+
 }
+
 /* ====== Navigation Style End ========== */
 /* =======Banner Style Start */
-.flexible-content{
+.flexible-content {
     display: flex;
     margin-bottom: 70px;
     margin-top: 150px;
 }
 
-.half-width{
+.half-width {
     width: 50%;
     padding-left: 156px;
     padding-bottom: 169px;
-   
+
 }
 
-.half-width span{
+.half-width span {
     background-color: #E02C6D;
     padding: 10px 24px;
-    
+
 }
-.half-width span a{
+
+.half-width span a {
     text-decoration: none;
     font-size: 16px;
     line-height: 24px;
     color: #ffffff;
 }
-.fa-arrow-right{
+
+.fa-arrow-right {
     color: #ffffff;
 }
-.half-width img{
-   width: 557px;
-   height: 438px;
+
+.half-width img {
+    width: 557px;
+    height: 438px;
 
 }
-.half-width img:hover{
-   
-}
-.half-width h1{
+
+.half-width img:hover {}
+
+.half-width h1 {
     font-size: 64px;
     line-height: 60px;
     color: #ffffff;
-  
+
 }
 
 /* =======Banner Style End */
 /*========Image Card Section Start======*/
 
+.container {
+    background-color: #ffffff;
+    width: 870px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 21px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 165px;
+}
+
+.image-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 45px;
+    margin-left: 180px
+}
+
+.image-card .image-card-banner img {
+    width: 300px;
+    height: 256px;
+}
+
+.card-details h1 {
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.cards-p {
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+.image-card {
+    box-shadow: 10px 10px 5px gray;
+    border-radius: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 3px solid white;
+    transition: transform 3s;
+
+}
+
+.image-card:hover {
+    border: 3px solid aqua;
+    transform: scale(1) rotate(360deg);
+}
