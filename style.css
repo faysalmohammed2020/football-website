@@ -1,0 +1,92 @@
+/* ========Fonts Family from google fonts======== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+
+/* =========Common Styles====== */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #2D25A0;
+    transition: background-color 5s;
+}
+.header:hover{
+    background-color: aquamarine;
+}
+/* ====== Navigation Style Start ========== */
+nav a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffff;
+    margin-right: 36px;
+    line-height: 24px;
+}
+nav{
+    margin-left: 156px;
+    padding-top: 42px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.login-button a{
+    background-color: #E02C6D;
+    padding: 10px 24px ;
+    text-align: center;
+    color: white;
+}
+ .fa-sign-in-alt{
+    color: #ffff;
+    font-size: 16px;
+    
+}
+/* ====== Navigation Style End ========== */
+/* =======Banner Style Start */
+.flexible-content{
+    display: flex;
+    margin-bottom: 70px;
+    margin-top: 150px;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 156px;
+    padding-bottom: 169px;
+   
+}
+
+.half-width span{
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    
+}
+.half-width span a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.fa-arrow-right{
+    color: #ffffff;
+}
+.half-width img{
+   width: 557px;
+   height: 438px;
+
+}
+.half-width img:hover{
+   
+}
+.half-width h1{
+    font-size: 64px;
+    line-height: 60px;
+    color: #ffffff;
+  
+}
+
+/* =======Banner Style End */
+/*========Image Card Section Start======*/
+
