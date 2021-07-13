@@ -178,6 +178,38 @@ nav a:hover{
  
  
 /*=========Bottom Section Completed===========*/
+/* =========Sponsor Part Style started============= */
+.sponsor-section{
+    margin-bottom: 150px;
+    background-color: #2D25A0;
+    padding: 80px;
+    transition: background-color 5s;
+}
+.sponsor-section:hover{
+    background-color: aquamarine;
+}
+.sponsor-title{
+    margin-bottom: 80px;
+}
+#sponsor-h3{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.sponsor-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.sponsor-img img{
+
+    width: 200px;
+    
+    
+}
+
+/* =========Sponsor Part Completed================== */
 /* ===========Footer Section Started========== */
 .footer-section{
     text-align: center;
