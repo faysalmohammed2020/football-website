@@ -26,6 +26,8 @@ nav a {
     color: #ffff;
     margin-right: 36px;
     line-height: 24px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    
 }
 
 nav {
@@ -34,6 +36,11 @@ nav {
     display: flex;
     justify-content: space-between;
 
+
+}
+nav a:hover{
+    color: deeppink;
+    
 }
 
 .login-button a {
@@ -189,11 +196,24 @@ nav {
     border-radius: 50px;
     border: 3px solid #969BAB;
 }
+.fa-instagram:hover{
+    color: #E02C6D;
+    background-color: white;
+    border-radius: 50px;
+    border: 3px solid white;
+    
+}
 .fa-dribbble{
     color: white;
     background-color: #969BAB;
     border-radius: 50px;
     border: 3px solid #969BAB;
+}
+.fa-dribbble:hover{
+    color: #AC2057;
+    background-color: white;
+    border-radius: 50px;
+    border: 3px solid white;
 }
 .fa-twitter{
     color: white;
@@ -201,10 +221,22 @@ nav {
     border-radius: 50px;
     border: 3px solid #969BAB;
 }
+.fa-twitter:hover{
+    color: #1CA6D6;
+    background-color: white;
+    border-radius: 50px;
+    border: 3px solid white;
+}
 .fa-youtube{
     color: white;
     background-color: #969BAB;
     border-radius: 50px;
     border: 3px solid #969BAB;
+}
+.fa-youtube:hover{
+    color: #F70000;
+    background-color: white;
+    border-radius: 50px;
+    border: 3px solid white;
 }
 /* =======Footer Completed========= */
