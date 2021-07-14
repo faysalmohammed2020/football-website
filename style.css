@@ -104,7 +104,7 @@ nav {
 
 }
 
-.half-width img:hover {}
+
 
 .half-width h1 {
     font-size: 64px;
@@ -290,3 +290,77 @@ nav {
     border: 3px solid white;
 }
 /* =======Footer Completed========= */
+/* =======Media Query Start==============*/
+@media only screen and (max-width:688px) {
+.flexible-content{
+flex-direction: column;
+}
+.header {
+    max-width: 688px;
+    height: 1200px;
+}
+.half-width img{
+    width: 329px;
+    height: 260px;
+}
+.half-width {
+    width: 278px;
+    height: 138px;
+    padding-bottom: 350px;
+
+}
+.half-width h1 {
+    font-size: 36px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-top: 50px;
+
+}
+nav {
+    margin-left: 156px;
+    padding-top: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+
+
+}
+.login-button{
+    margin-top: 20px;
+}
+.container {
+    background-color: #ffffff;
+    width: 870px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 165px;
+}
+.image-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin-left: 180px
+}
+.image-card .image-card-banner img {
+    width: 300px;
+    height: 256px;
+}
+
+.card-details h1 {
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.cards-p {
+    font-size: 16px;
+    line-height: 26px;
+
+}
+}
+/* =======Media Query End============== */
