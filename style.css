@@ -12,6 +12,9 @@ body {
 .header {
     background-color: #2D25A0;
     transition: background-color 5s;
+    width: 1440px;
+    height: 677px;
+    padding-bottom: 180px
 }
 
 .header:hover {
@@ -38,7 +41,7 @@ nav {
 
 
 }
-nav a:hover{
+.menu a:hover{
     color: deeppink;
     
 }
@@ -48,6 +51,12 @@ nav a:hover{
     padding: 10px 24px;
     text-align: center;
     color: white;
+}
+.login-button a:hover {
+    background-color: blueviolet;
+    padding: 10px 24px;
+    text-align: center;
+    color: #ffff;
 }
 
 .fa-sign-in-alt {
@@ -91,6 +100,7 @@ nav a:hover{
 .half-width img {
     width: 557px;
     height: 438px;
+    margin-right: 95px;
 
 }
 
@@ -165,7 +175,7 @@ nav a:hover{
 }
  #bottom-h1{
      color: black;
-     font-size: 48px;
+     font-size: 45px;
      line-height: 60px;
  }
  #bottom-p{

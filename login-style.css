@@ -1,0 +1,82 @@
+
+body{
+    background-image: url(images/login-bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+   
+}
+
+h2{
+    color: aquamarine;
+    font-size: 30px;
+    text-align: center;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    
+   
+}
+
+.login-form img{
+    width: 50px;
+    background-color: gray;
+    border-radius: 100px;
+    margin-left: 70px;
+
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.login-form input{
+      font-size: 16px;
+      margin-top: 10px;
+     
+}
+#button{
+    padding-left: 5px ;
+    padding-right: 5px ;
+    background-image: linear-gradient(to right, rgba(0, 255, 255, 0.377),rgba(0, 255, 255, 0.637));
+    border-radius: 10px;
+    border: 3px solid aquamarine;
+    margin-bottom: 20px;
+}
+
+#button:hover{
+    padding-left: 5px ;
+    padding-right: 5px ;
+    background-image: linear-gradient(to right, rgb(10, 248, 10),rgb(119, 235, 119));
+    border-radius: 10px;
+    border: 3px solid aquamarine;
+   
+}
+#email{
+    border-radius: 10px;
+    padding: 5px;
+    border: 3px solid aquamarine;
+}
+#password{
+    border-radius: 10px;
+    padding: 5px;
+    border: 3px solid aquamarine;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    padding-left: 5px ;
+    padding-right: 5px ;
+    background-image: linear-gradient(to right, rgba(0, 255, 255, 0.377),rgba(0, 255, 255, 0.637));
+    border-radius: 10px;
+    border: 3px solid aquamarine;
+    margin-left: 660px;
+}
+.button a:hover{
+    padding-left: 5px ;
+    padding-right: 5px ;
+    
+    border: 3px dashed aqua;
+}
