@@ -345,7 +345,7 @@ nav {
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-    margin-left: 180px
+    margin-right: 350px;
 }
 .image-card .image-card-banner img {
     width: 300px;
@@ -360,7 +360,44 @@ nav {
 .cards-p {
     font-size: 16px;
     line-height: 26px;
+    height: 300px;
+width: 200px;
 
 }
+.bottom-img{
+    
+    margin-top: 390px;
+}
+.sponsor-section{
+    margin-bottom: 150px;
+    background-color: #2D25A0;
+    padding: 80px;
+    transition: background-color 5s;
+    margin-top: 200px;
+}
+.sponsor-section:hover{
+    background-color: aquamarine;
+}
+.sponsor-title{
+    margin-bottom: 80px;
+}
+#sponsor-h3{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.sponsor-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.sponsor-img img{
+
+    width: 100px;
+    margin-bottom: 50px;
+    
+    
+ 
 }
 /* =======Media Query End============== */
